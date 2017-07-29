@@ -1,0 +1,39 @@
+﻿.fadeIn{
+    animation: fadeIn 200ms;
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+.fadeOut{
+    animation:fadeOut 200ms;
+}
+
+.fadeOut.idle{
+    display:none !important;
+}
+
+@keyframes fadeOut{
+    0%{
+        opacity:1;
+    }
+    100%{
+        opacity:0;
+    }
+}
+
+/* enables CSS3 transition for simple collapses, accordion and also navbar in responsive view */
+.collapse { transition: height .3s ease-out; /*-webkit-transition: height .3s ease-out*/ } 
+
+/* styles the close button for the dismissible popovers */
+.popover .close { position: absolute; top: 7px; right: 10px; }
+
+.startHidden{
+    display:none;
+}

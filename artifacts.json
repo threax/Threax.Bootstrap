@@ -1,0 +1,18 @@
+[
+  {
+    "outDir": "lib/bootstrap/dist/css",
+    "less": [
+      {
+        "importPaths": [ ".", "../bootstrap/less" ],
+        "input": "threax.bootstrap.less",
+        "compress": true
+      }
+    ]
+  },
+  {
+    "outDir": ".",
+    "copy": [
+      "favicon.ico"
+    ]
+  }
+]
