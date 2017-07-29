@@ -14,8 +14,9 @@
 @gray-light:             #999;   // #999
 @gray-lighter:           #EBEBEB; // #eee
 
+@brand-app:             #999;
 @brand-primary:         #375a7f;
-@brand-success:         #00bc8c;
+@brand-success:         #017918;
 @brand-info:            #3498DB;
 @brand-warning:         #F39C12;
 @brand-danger:          #E74C3C;
@@ -31,7 +32,7 @@
 @text-color:            #fff;
 
 //** Global textual link color.
-@link-color:            desaturate(lighten(@brand-success, 10%),10%);
+@link-color:            desaturate(lighten(@brand-info, 10%),10%);
 //** Link hover color set via `darken()` function.
 @link-hover-color:      @link-color;
 //** Link hover decoration.
@@ -365,12 +366,12 @@
 @navbar-collapse-max-height:       340px;
 
 @navbar-default-color:             #fff;
-@navbar-default-bg:                @brand-primary;
+@navbar-default-bg:                @brand-app;
 @navbar-default-border:            transparent;
 
 // Navbar links
 @navbar-default-link-color:                #fff;
-@navbar-default-link-hover-color:          @brand-success;
+@navbar-default-link-hover-color:          #ccc;
 @navbar-default-link-hover-bg:             transparent;
 @navbar-default-link-active-color:         #fff;
 @navbar-default-link-active-bg:            darken(@navbar-default-bg, 10%);
