@@ -1,6 +1,6 @@
 {
   "name": "threax.bootstrap",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies": {
     "bootstrap": "~3.3.7"
   }
