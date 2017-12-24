@@ -3,7 +3,7 @@
     "outDir": "lib/bootstrap/dist/css",
     "less": [
       {
-        "importPaths": [ ".", "../bootstrap/less", "../../less" ],
+        "importPaths": [ ".", "../bootstrap/less", "../../Client/Less" ],
         "input": "threax.bootstrap.less",
         "compress": true
       }
