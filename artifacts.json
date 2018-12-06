@@ -14,5 +14,12 @@
     "copy": [
       "favicon.ico"
     ]
+  },
+  {
+    "pathBase": "..",
+    "outDir": "lib",
+    "copy": [
+    "../bootstrap/dist/fonts/*"
+    ]
   }
 ]
