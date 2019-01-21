@@ -46,7 +46,7 @@ $body-color:                $white !default;
 
 // Links
 
-$link-color:                $success !default;
+$link-color:                rgb(44, 142, 225) !default;
 
 // Fonts
 
@@ -103,7 +103,7 @@ $nav-tabs-link-active-border-color: $nav-tabs-border-color $nav-tabs-border-colo
 $navbar-padding-y:                  1rem !default;
 
 $navbar-dark-color:                 $white !default;
-$navbar-dark-hover-color:           $success !default;
+$navbar-dark-hover-color:           rgb(200, 200, 200) !default;
 
 $navbar-light-color:                rgba($white,.5) !default;
 $navbar-light-hover-color:          $white !default;
@@ -112,21 +112,22 @@ $navbar-light-disabled-color:       rgba($white,.3) !default;
 $navbar-light-toggler-border-color: rgba($white,.1) !default;
 
 // Pagination
+$pagination-core-bg:                #406994;
 
 $pagination-color:                  $white !default;
-$pagination-bg:                     $success !default;
+$pagination-bg:                     $pagination-core-bg !default;
 $pagination-border-width:           0 !default;
 $pagination-border-color:           transparent !default;
 
 $pagination-hover-color:            $white !default;
-$pagination-hover-bg:               lighten($success, 10%) !default;
+$pagination-hover-bg:               lighten($pagination-core-bg, 15%) !default;
 $pagination-hover-border-color:     transparent !default;
 
 $pagination-active-bg:              $pagination-hover-bg !default;
 $pagination-active-border-color:    transparent !default;
 
 $pagination-disabled-color:         $white !default;
-$pagination-disabled-bg:            darken($success, 15%) !default;
+$pagination-disabled-bg:            darken($pagination-core-bg, 15%) !default;
 $pagination-disabled-border-color:  transparent !default;
 
 // Jumbotron
