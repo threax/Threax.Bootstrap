@@ -1,11 +1,11 @@
 [
   {
     "outDir": "lib/bootstrap/dist/css",
-    "less": [
+    "sass": [
       {
-        "importPaths": [ ".", "../bootstrap/less", "../../Client/Less" ],
-        "input": "threax.bootstrap.less",
-        "compress": true
+        "importPaths": [ ".", "../bootstrap/scss", "../../Client/Scss" ],
+        "input": "threax.bootstrap.scss",
+        "compress": true      
       }
     ]
   },
