@@ -7,7 +7,7 @@
 }
 
 .load-linebar > div {
-    background-color: #000;
+    background-color: $body-color;
     height: 100%;
     width: 6px;
     display: inline-block;
@@ -16,7 +16,7 @@
 }
 
 .load-linebar-inverse > div {
-    background-color: #fff;
+    background-color: $body-bg;
 }
 
 .load-linebar .rect2 {

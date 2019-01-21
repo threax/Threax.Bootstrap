@@ -13,7 +13,7 @@
 @import "app";
  
  .btn-default {
-     @include button-variant($gray-300, $gray-300);
+     @include button-variant($gray-700, $gray-700);
    }
  
  .hiddenToggler{
