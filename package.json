@@ -1,7 +1,13 @@
 {
   "name": "threax.bootstrap4",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "dependencies": {
     "bootstrap": ">=4.2.1"
-  }
+  },
+  "files": [
+    "*.scss",
+    "LICENSE",
+    "Readme.md",
+    "artifacts.json"
+  ]
 }

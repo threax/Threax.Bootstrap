@@ -1,0 +1,22 @@
+﻿/*!
+ * Variation of theme for use with angular.
+ */
+
+ @import "variables";
+ @import "../bootstrap/scss/bootstrap";
+ @import "bootswatch";
+ @import "fade";
+ @import "loading";
+ @import "loading.angular";
+  
+  .btn-default {
+      @include button-variant($gray-700, $gray-700);
+    }
+  
+  .hiddenToggler{
+      display:none;
+  }
+ 
+  .bg-brand-app {
+     background-color: $brand-app !important;
+   }
