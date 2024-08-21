@@ -1,4 +1,4 @@
-# threax.bootstrap4
+# threax.bootstrap
 This theme is used in the threax open source applications. It uses the Darkly theme and will build itself with its artifacts.json.
 
 ## Customizing
