@@ -1,8 +1,8 @@
 {
-  "name": "threax.bootstrap4",
-  "version": "0.0.3",
+  "name": "threax.bootstrap",
+  "version": "1.0.0",
   "dependencies": {
-    "bootstrap": ">=4.2.1"
+    "bootstrap": ">=5.0.0"
   },
   "files": [
     "*.scss",
